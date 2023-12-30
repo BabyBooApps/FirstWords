@@ -5,6 +5,7 @@ public class Word_Obj : ScriptableObject
 {
     public Sprite Image;
     public string Id;
+    public string Name;
 
     
 }

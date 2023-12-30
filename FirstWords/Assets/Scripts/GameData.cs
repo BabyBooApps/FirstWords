@@ -7,6 +7,7 @@ public class GameData : MonoBehaviour
     public static GameData instance;
 
     public List<Word_Obj> Alphabet_List = new List<Word_Obj>();
+    public List<Word_Obj> Number_List = new List<Word_Obj>();
 
 
     private void Awake()

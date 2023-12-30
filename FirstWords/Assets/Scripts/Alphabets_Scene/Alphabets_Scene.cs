@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Alphabets_Scene : MonoBehaviour
 {
+    public int LevelId;
+
     public WordObj AlphabetContainer;
     public List<Word_Obj> words_List = new List<Word_Obj>();
     public Word_Obj currentWord;
     public int id = 0;
+
+    public TextMeshPro NameObj;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +23,14 @@ public class Alphabets_Scene : MonoBehaviour
 
     public void SetWords_List()
     {
-        words_List = GameData.instance.Alphabet_List;
+        if(LevelId == 1)
+        {
+            words_List = GameData.instance.Alphabet_List;
+        }else if(LevelId == 2)
+        {
+            words_List = GameData.instance.Number_List;
+        }
+       
     }
 
     public void InitalizeLevel()
@@ -70,16 +82,44 @@ public class Alphabets_Scene : MonoBehaviour
     {
         if(id <= 0)
         {
-            UI_Manager.instance.alphabet_Screen.Set_PrevBtn(false);
-            UI_Manager.instance.alphabet_Screen.Set_NextBtn(true);
+            if (LevelId == 1)
+            {
+                UI_Manager.instance.alphabet_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.alphabet_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 2)
+            {
+                UI_Manager.instance.number_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.number_Screen.Set_NextBtn(true);
+            }
+
+            
         }else if(id >= words_List.Count -1)
         {
-            UI_Manager.instance.alphabet_Screen.Set_PrevBtn(true);
-            UI_Manager.instance.alphabet_Screen.Set_NextBtn(false);
+            if (LevelId == 1)
+            {
+                UI_Manager.instance.alphabet_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.alphabet_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 2)
+            {
+                UI_Manager.instance.number_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.number_Screen.Set_NextBtn(false);
+            }
+
         }else
         {
-            UI_Manager.instance.alphabet_Screen.Set_PrevBtn(true);
-            UI_Manager.instance.alphabet_Screen.Set_NextBtn(true);
+
+            if (LevelId == 1)
+            {
+                UI_Manager.instance.alphabet_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.alphabet_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 2)
+            {
+                UI_Manager.instance.number_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.number_Screen.Set_NextBtn(true);
+            }
         }
     }
 
@@ -87,8 +127,16 @@ public class Alphabets_Scene : MonoBehaviour
     {
         AudioManager.instance.Play_MoveClip();
 
-        UI_Manager.instance.alphabet_Screen.Set_PrevBtn(false);
-        UI_Manager.instance.alphabet_Screen.Set_NextBtn(false);
+        if(LevelId == 1)
+        {
+            UI_Manager.instance.alphabet_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.alphabet_Screen.Set_NextBtn(false);
+        }else if (LevelId == 2)
+        {
+            UI_Manager.instance.number_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.number_Screen.Set_NextBtn(false);
+        }
+
 
         AlphabetContainer.gameObject.transform.localScale = Vector3.zero;
        /* Color col = AlphabetContainer.color;
@@ -107,6 +155,13 @@ public class Alphabets_Scene : MonoBehaviour
         Set_Nex_Prev_Btns();
 
         AudioManager.instance.Play_Alphabet_Clip(words_List[id].Id);
+
+        SetName(words_List[id].Name);
+    }
+
+    public void SetName(string name)
+    {
+        NameObj.text = name;
     }
 
     public void Play_Word_Audio_On_Click()

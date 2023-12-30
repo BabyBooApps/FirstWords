@@ -56,13 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ScriptableObjects\Word_Obj.cs" />
-    <Compile Include="Assets\Scripts\GameData.cs" />
     <Compile Include="Assets\Scripts\Alphabets_Scene\Alphabets_Scene.cs" />
     <Compile Include="Assets\Scripts\UI\UI_Manager.cs" />
-    <Compile Include="Assets\Scripts\UI\Alphabet_Screen.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\GameData.cs" />
+    <Compile Include="Assets\ScriptableObjects\Word_Obj.cs" />
     <Compile Include="Assets\AudioClips\WordObj.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\UI\Number_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\Alphabet_Screen.cs" />
+    <Compile Include="Assets\Scripts\Alphabets_Scene\NumberScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

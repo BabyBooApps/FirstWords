@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Image: {fileID: 21300000, guid: d7d20e19faada4b4e8c2534ad9569811, type: 3}
   Id: U
+  Name: USS

@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Image: {fileID: 21300000, guid: e75bd35e6c9d7e546bc9951a6bb50eea, type: 3}
   Id: D
+  Name: D

@@ -1,0 +1,546 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16167 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Work/Quinces/Github/FirstWords/FirstWords
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57878
+Successfully changed project path to: D:/Work/Quinces/Github/FirstWords/FirstWords
+D:/Work/Quinces/Github/FirstWords/FirstWords
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15048] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2778525685 [EditorId] 2778525685 [Version] 1048832 [Id] WindowsEditor(7,Rajesh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15048] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2778525685 [EditorId] 2778525685 [Version] 1048832 [Id] WindowsEditor(7,Rajesh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 81.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Work/Quinces/Github/FirstWords/FirstWords/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8083 MB
+    Driver:   30.0.101.1003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004372 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 223 ms
+Refreshing native plugins compatible for Editor in 97.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (544ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (303ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004916 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Work\Quinces\Github\FirstWords\FirstWords\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Work\Quinces\Github\FirstWords\FirstWords\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 93.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1078ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (850ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3820 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (46.5 KB). Loaded Objects now: 4283.
+Memory consumption went from 151.7 MB to 151.7 MB.
+Total: 3.017100 ms (FindLiveObjects: 0.271600 ms CreateObjectMapping: 0.167300 ms MarkObjects: 2.470500 ms  DeleteObjects: 0.106400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 332539.871911 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (21).png
+  artifactKey: Guid(55981878f13224f4a87249203dcb5c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (21).png using Guid(55981878f13224f4a87249203dcb5c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7108696952385dceb979807e92cf816e') in 0.099797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (14).png
+  artifactKey: Guid(64bdd50c3b585e6428b04354401c3577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (14).png using Guid(64bdd50c3b585e6428b04354401c3577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76860877f10efce5ac8d6959b0f3beca') in 0.028933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (13).png
+  artifactKey: Guid(b3387dc74367cfd4d9059dff6907d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (13).png using Guid(b3387dc74367cfd4d9059dff6907d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453aa0275d6639415fe7caae6bec7673') in 0.042642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (7).png
+  artifactKey: Guid(1b8cde33267fc4e4babba872c2aa5aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (7).png using Guid(1b8cde33267fc4e4babba872c2aa5aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef040fb89d2e8fdca618d7c1b05ed6e') in 0.028972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (5).png
+  artifactKey: Guid(0d0e4639441d4a149b273c5a479ba65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (5).png using Guid(0d0e4639441d4a149b273c5a479ba65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bc9b3d055240d9b6656b521c37090e') in 0.036044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (11).png
+  artifactKey: Guid(e57891af9b6155147a208e73b6f7f463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (11).png using Guid(e57891af9b6155147a208e73b6f7f463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da2a36c6bbc2808005cb7f0f5d38cd4') in 0.028370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (15).png
+  artifactKey: Guid(68483184d4dfc3944a04eb6871fc6d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (15).png using Guid(68483184d4dfc3944a04eb6871fc6d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3005a5baea60f9e1c79c524b81ca962') in 0.030239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (16).png
+  artifactKey: Guid(43520c687c160c74384896a2d0582479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (16).png using Guid(43520c687c160c74384896a2d0582479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5073625b144bcbe67ed794424b5789b1') in 0.028643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (10).png
+  artifactKey: Guid(66f87160a9e0250489c9eb454974443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (10).png using Guid(66f87160a9e0250489c9eb454974443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfb99543c01137430c936f9962d1f6f') in 0.031674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (1).png
+  artifactKey: Guid(9d04ba3b1ec9b454bb035a01c1d8695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (1).png using Guid(9d04ba3b1ec9b454bb035a01c1d8695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed91770252e47a6b948422273380405c') in 0.031364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (6).png
+  artifactKey: Guid(57f7417dbb58b644aba3d577c607c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (6).png using Guid(57f7417dbb58b644aba3d577c607c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c243d7d7a9b870c221e63ec0d251f1') in 0.030351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (24).png
+  artifactKey: Guid(42623932d3434bd49a57b87203e6cbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (24).png using Guid(42623932d3434bd49a57b87203e6cbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913adde42ed40966e18b4cb7fbf5068c') in 0.029965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300
+  artifactKey: Guid(883be9121ed26be4384b8d64d65b4090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300 using Guid(883be9121ed26be4384b8d64d65b4090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284cc740639d4ae23bffe37ebcbddaf5') in 0.010226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (12).png
+  artifactKey: Guid(d3499b1f718221a46b3fe3096592da58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (12).png using Guid(d3499b1f718221a46b3fe3096592da58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371da0599e6d5537e71b5b02b289270a') in 0.045111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (4).png
+  artifactKey: Guid(5c406c5f30173e54cb6d44c60f96a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (4).png using Guid(5c406c5f30173e54cb6d44c60f96a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88a7ae4d7d17010f9c34ab189e91ace') in 0.024435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (17).png
+  artifactKey: Guid(92a9476e086fddb44b4298f2b6ee9301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (17).png using Guid(92a9476e086fddb44b4298f2b6ee9301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279c742a18bdc437d9591260b3084c45') in 0.031811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (3).png
+  artifactKey: Guid(c503c175444f79044aa9869e6cd6790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (3).png using Guid(c503c175444f79044aa9869e6cd6790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2025caa4c80279ac8f8b6265f772734') in 0.030483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (18).png
+  artifactKey: Guid(321fbd26de3f8d444a087721410f4ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (18).png using Guid(321fbd26de3f8d444a087721410f4ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3edbc67ac7ba76b23ae0013c3e5cd7') in 0.025502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (8).png
+  artifactKey: Guid(b0bc884c81ea3ac4bb1f56fbe8c80ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Birds-page/Birds-300x300/Birds (8).png using Guid(b0bc884c81ea3ac4bb1f56fbe8c80ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6b06b2c0b62fe5f528bcc9937b91f3') in 0.028093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.371946 seconds.
+  path: Assets/Designs/First Words/Fruits-page/inner screens-Fruits.jpg
+  artifactKey: Guid(2b8c0ee01fb57d24da51391b24096d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/inner screens-Fruits.jpg using Guid(2b8c0ee01fb57d24da51391b24096d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b850449edda6cc308d8393a9f51254a9') in 0.194693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.896578 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (2).png
+  artifactKey: Guid(0c832403ec0bea046832535e78fb5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (2).png using Guid(0c832403ec0bea046832535e78fb5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fa123c7f768c61132b8d10433277b3') in 0.029389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (21).png
+  artifactKey: Guid(f1a516ea9cc88d842be618b3d140b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (21).png using Guid(f1a516ea9cc88d842be618b3d140b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a30254bf82648b73672be2b3b6b83c1') in 0.038642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (9).png
+  artifactKey: Guid(b21586661f15de54a9faec1bddca0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (9).png using Guid(b21586661f15de54a9faec1bddca0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6d56abef6c54a7d66ff95a0cdf5045') in 0.031693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (22).png
+  artifactKey: Guid(03a807b07044c32419ec1c1eee69ce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (22).png using Guid(03a807b07044c32419ec1c1eee69ce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a73357bf7e9bb9879ff7c60aae8295e') in 0.035053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (10).png
+  artifactKey: Guid(9d3695baa9bd05f44905b42bf228d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (10).png using Guid(9d3695baa9bd05f44905b42bf228d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879c6f41f3c9dbe4e85897a717e1a929') in 0.033458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (5).png
+  artifactKey: Guid(315aa017e378e4940b3c3c8ae52c5563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (5).png using Guid(315aa017e378e4940b3c3c8ae52c5563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a551dc274e3dabc604333a1ffef6727c') in 0.033973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (17).png
+  artifactKey: Guid(603e475d13b31e040a6f0f607c196ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (17).png using Guid(603e475d13b31e040a6f0f607c196ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bedb003c509c7b092b8d4b2be8fe32') in 0.030345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (12).png
+  artifactKey: Guid(2dfd71f22094f2f4a8e2aaf9619daea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (12).png using Guid(2dfd71f22094f2f4a8e2aaf9619daea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cad82fd53d59e9280626108be145a1') in 0.036068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (6).png
+  artifactKey: Guid(204e982ab7eac40459fd319a4f7698d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (6).png using Guid(204e982ab7eac40459fd319a4f7698d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946d4e43d4709ebcb12520e5b80f8a09') in 0.031375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (19).png
+  artifactKey: Guid(95ce190cbb20e784d928d3660e628a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (19).png using Guid(95ce190cbb20e784d928d3660e628a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a2b7e47e6fe321faeea2efe22a6a9e') in 0.031609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (3).png
+  artifactKey: Guid(17ffc7bb9c503904ab87e0d880dd3647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (3).png using Guid(17ffc7bb9c503904ab87e0d880dd3647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4441372548ff5eb39e36b28400965b0c') in 0.026797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (7).png
+  artifactKey: Guid(de96a77405369044b8d9fd089fbdd696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Designs/First Words/Fruits-page/Fruits-300x300/Fruits (7).png using Guid(de96a77405369044b8d9fd089fbdd696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86169dba6933511fa63a4a3099427875') in 0.029775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.894177 seconds.
+  path: Assets/ScriptableObjects/Alphabets/B.asset
+  artifactKey: Guid(cb1ce543105241f44be359790bf260eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/B.asset using Guid(cb1ce543105241f44be359790bf260eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6d3225816e818b17d416f3bce9fe59') in 0.007762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ScriptableObjects/Alphabets/K.asset
+  artifactKey: Guid(e1436662aac7ca54b8e9a27d343c65b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/K.asset using Guid(e1436662aac7ca54b8e9a27d343c65b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099f81bd300fd067d03e85737ee8ca25') in 0.008468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ScriptableObjects/Alphabets/O.asset
+  artifactKey: Guid(044418d5881acdb4a91f0bdbd0d768c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/O.asset using Guid(044418d5881acdb4a91f0bdbd0d768c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e41355cbb5ffeea0d53638318240d1') in 0.009877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ScriptableObjects/Alphabets/C.asset
+  artifactKey: Guid(78229b198366b1044ac6db6453739f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/C.asset using Guid(78229b198366b1044ac6db6453739f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47c21ef9256eb4b014630599e786537') in 0.003343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ScriptableObjects/Alphabets/G.asset
+  artifactKey: Guid(d5fe4eee582253949bf676d3576664e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/G.asset using Guid(d5fe4eee582253949bf676d3576664e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad313b8a8f9160a48a2a3f5876680234') in 0.010454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ScriptableObjects/Alphabets/D.asset
+  artifactKey: Guid(f931fe960f4ae0d4c98ad30849d83b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/D.asset using Guid(f931fe960f4ae0d4c98ad30849d83b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9355670d09cf9f96d67deee5b0274b') in 0.010176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ScriptableObjects/Alphabets/J.asset
+  artifactKey: Guid(ed85b767594d91443b6c91bf0425bf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/J.asset using Guid(ed85b767594d91443b6c91bf0425bf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c277422305c82a53b6b0875a1ea37f') in 0.010826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ScriptableObjects/Alphabets/N.asset
+  artifactKey: Guid(95c45d2bcfe87864da59f08c8c130e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/N.asset using Guid(95c45d2bcfe87864da59f08c8c130e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2389b26d77be1ae27710298f88bd8ecb') in 0.011139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.780541 seconds.
+  path: Assets/ScriptableObjects/Alphabets/S.asset
+  artifactKey: Guid(e3e5efde762159e43b04469b1dde4ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/S.asset using Guid(e3e5efde762159e43b04469b1dde4ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba7d6db02231ac74bd090205e13eff8') in 0.008791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ScriptableObjects/Alphabets/U.asset
+  artifactKey: Guid(0c108dd3ab0e585418e5616528c8042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/U.asset using Guid(0c108dd3ab0e585418e5616528c8042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3fd36006371919181769ce0be7b552') in 0.009749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.747321 seconds.
+  path: Assets/ScriptableObjects/Alphabets/Y.asset
+  artifactKey: Guid(8b51ff5dd6b9e0d488484ed4ae83187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Alphabets/Y.asset using Guid(8b51ff5dd6b9e0d488484ed4ae83187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b32d0a967ff69c224771eb4229719f9') in 0.007865 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003929 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Work\Quinces\Github\FirstWords\FirstWords\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Work\Quinces\Github\FirstWords\FirstWords\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3795 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 4295.
+Memory consumption went from 149.1 MB to 149.0 MB.
+Total: 2.665100 ms (FindLiveObjects: 0.326600 ms CreateObjectMapping: 0.280000 ms MarkObjects: 2.027000 ms  DeleteObjects: 0.030100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003093 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Work\Quinces\Github\FirstWords\FirstWords\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Work\Quinces\Github\FirstWords\FirstWords\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3795 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 4298.
+Memory consumption went from 149.1 MB to 149.1 MB.
+Total: 2.443600 ms (FindLiveObjects: 0.240200 ms CreateObjectMapping: 0.105300 ms MarkObjects: 2.071600 ms  DeleteObjects: 0.025300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.

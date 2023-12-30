@@ -7,6 +7,7 @@ public class UI_Manager : MonoBehaviour
     public static UI_Manager instance;
 
     public Alphabet_Screen alphabet_Screen;
+    public Number_Screen number_Screen;
 
     private void Awake()
     {

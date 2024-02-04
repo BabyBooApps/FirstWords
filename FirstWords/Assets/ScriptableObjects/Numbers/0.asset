@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 0
   m_EditorClassIdentifier: 
   Image: {fileID: 21300000, guid: 16d43d6c456a85748a48dc2f0b07ac4c, type: 3}
-  Id: 0
-  Name: ZERO
+  Id: 10
+  Name: TEN

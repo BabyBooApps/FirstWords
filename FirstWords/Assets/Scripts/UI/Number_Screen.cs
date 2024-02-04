@@ -18,4 +18,11 @@ public class Number_Screen : MonoBehaviour
     {
         PreviousBtn.gameObject.SetActive(isActive);
     }
+
+    public void On_Home_Btn_Pressed()
+    {
+        UI_Manager.instance.On_Menu_Btn_Pressed();
+        GamePlayManager.instance.DeactivateCurrentLevel();
+        this.gameObject.SetActive(false);
+    }
 }

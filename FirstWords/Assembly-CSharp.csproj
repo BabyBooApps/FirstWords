@@ -56,15 +56,34 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UI\Fruits_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\FarmAnimals_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\Vehicles_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\Menu_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\Home_Screen.cs" />
+    <Compile Include="Assets\Scripts\CameraAspectRatio.cs" />
     <Compile Include="Assets\Scripts\Alphabets_Scene\Alphabets_Scene.cs" />
+    <Compile Include="Assets\Scripts\UI\BodyParts_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\Birds_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\SettingsScreen.cs" />
     <Compile Include="Assets\Scripts\UI\UI_Manager.cs" />
+    <Compile Include="Assets\Scripts\UI\Sports_Screen.cs" />
     <Compile Include="Assets\Scripts\GameData.cs" />
+    <Compile Include="Assets\Scripts\UI\Shapes_Screen.cs" />
     <Compile Include="Assets\ScriptableObjects\Word_Obj.cs" />
     <Compile Include="Assets\AudioClips\WordObj.cs" />
+    <Compile Include="Assets\Scripts\UI\Color_Screen.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\UI\Animal_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\HorizontalScrollSnap.cs" />
+    <Compile Include="Assets\Scripts\GamePlayManager.cs" />
     <Compile Include="Assets\Scripts\UI\Number_Screen.cs" />
     <Compile Include="Assets\Scripts\UI\Alphabet_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\UIBubbleAnimation.cs" />
     <Compile Include="Assets\Scripts\Alphabets_Scene\NumberScene.cs" />
+    <Compile Include="Assets\Scripts\UI\MusicalInstruments_Screen.cs" />
+    <Compile Include="Assets\Scripts\UI\Vegtable_Scene.cs" />
+    <Compile Include="Assets\Scripts\UI\SeaAnimals_Screen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

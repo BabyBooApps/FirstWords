@@ -17,10 +17,14 @@ public class Alphabets_Scene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+    public void StartLevel()
+    {
         SetWords_List();
         InitalizeLevel();
     }
-
     public void SetWords_List()
     {
         if(LevelId == 1)
@@ -30,7 +34,56 @@ public class Alphabets_Scene : MonoBehaviour
         {
             words_List = GameData.instance.Number_List;
         }
-       
+        else if (LevelId == 3)
+        {
+            words_List = GameData.instance.Color_List;
+        }
+        else if (LevelId == 4)
+        {
+            words_List = GameData.instance.Animal_List;
+        }
+        else if (LevelId == 5)
+        {
+            words_List = GameData.instance.Fruits_List;
+        }
+        else if (LevelId == 6)
+        {
+            words_List = GameData.instance.Vegtable_List;
+        }
+        else if (LevelId == 7)
+        {
+            words_List = GameData.instance.Birds_List;
+        }
+        else if (LevelId == 8)
+        {
+            words_List = GameData.instance.FarmAnimals_List;
+        }
+        else if (LevelId == 9)
+        {
+            words_List = GameData.instance.SeaAnimals_List;
+        }
+        else if (LevelId == 10)
+        {
+            words_List = GameData.instance.Shapes_List;
+        }
+        else if (LevelId == 11)
+        {
+            words_List = GameData.instance.Sports_List;
+        }
+        else if (LevelId == 12)
+        {
+            words_List = GameData.instance.Vehicles_List;
+        }
+        else if (LevelId == 13)
+        {
+            words_List = GameData.instance.MusicalInstruments_List;
+        }
+        else if (LevelId == 14)
+        {
+            words_List = GameData.instance.BodyParts_List;
+        }
+
+
     }
 
     public void InitalizeLevel()
@@ -42,6 +95,7 @@ public class Alphabets_Scene : MonoBehaviour
     }
     public void SetNextAlphabet()
     {
+        AudioManager.instance.Play_Btn_Click();
         id++;
         if(id < words_List.Count)
         {
@@ -59,6 +113,7 @@ public class Alphabets_Scene : MonoBehaviour
 
     public void SetPrevAlphabet()
     {
+        AudioManager.instance.Play_Btn_Click();
         id--;
         if (id >= 0)
         {
@@ -92,9 +147,70 @@ public class Alphabets_Scene : MonoBehaviour
                 UI_Manager.instance.number_Screen.Set_PrevBtn(false);
                 UI_Manager.instance.number_Screen.Set_NextBtn(true);
             }
+            else if (LevelId == 3)
+            {
+                UI_Manager.instance.color_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.color_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 4)
+            {
+                UI_Manager.instance.animal_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.animal_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 5)
+            {
+                UI_Manager.instance.fruit_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.fruit_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 6)
+            {
+                UI_Manager.instance.vegtable_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.vegtable_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 7)
+            {
+                UI_Manager.instance.birds_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.birds_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 8)
+            {
+                UI_Manager.instance.farmAnimals_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.farmAnimals_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 9)
+            {
+                UI_Manager.instance.seaAnimals_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.seaAnimals_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 10)
+            {
+                UI_Manager.instance.shapes_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.shapes_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 11)
+            {
+                UI_Manager.instance.sports_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.sports_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 12)
+            {
+                UI_Manager.instance.vehicles_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.vehicles_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 13)
+            {
+                UI_Manager.instance.musicalInstruments_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.musicalInstruments_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 14)
+            {
+                UI_Manager.instance.bodyParts_Screen.Set_PrevBtn(false);
+                UI_Manager.instance.bodyParts_Screen.Set_NextBtn(true);
+            }
 
-            
-        }else if(id >= words_List.Count -1)
+
+        }
+        else if(id >= words_List.Count -1)
         {
             if (LevelId == 1)
             {
@@ -106,8 +222,69 @@ public class Alphabets_Scene : MonoBehaviour
                 UI_Manager.instance.number_Screen.Set_PrevBtn(true);
                 UI_Manager.instance.number_Screen.Set_NextBtn(false);
             }
+            else if (LevelId == 3)
+            {
+                UI_Manager.instance.color_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.color_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 4)
+            {
+                UI_Manager.instance.animal_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.animal_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 5)
+            {
+                UI_Manager.instance.fruit_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.fruit_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 6)
+            {
+                UI_Manager.instance.vegtable_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.vegtable_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 7)
+            {
+                UI_Manager.instance.birds_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.birds_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 8)
+            {
+                UI_Manager.instance.farmAnimals_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.farmAnimals_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 9)
+            {
+                UI_Manager.instance.seaAnimals_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.seaAnimals_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 10)
+            {
+                UI_Manager.instance.shapes_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.shapes_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 11)
+            {
+                UI_Manager.instance.sports_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.sports_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 12)
+            {
+                UI_Manager.instance.vehicles_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.vehicles_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 13)
+            {
+                UI_Manager.instance.musicalInstruments_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.musicalInstruments_Screen.Set_NextBtn(false);
+            }
+            else if (LevelId == 14)
+            {
+                UI_Manager.instance.bodyParts_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.bodyParts_Screen.Set_NextBtn(false);
+            }
 
-        }else
+        }
+        else
         {
 
             if (LevelId == 1)
@@ -120,6 +297,66 @@ public class Alphabets_Scene : MonoBehaviour
                 UI_Manager.instance.number_Screen.Set_PrevBtn(true);
                 UI_Manager.instance.number_Screen.Set_NextBtn(true);
             }
+            else if (LevelId == 3)
+            {
+                UI_Manager.instance.color_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.color_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 4)
+            {
+                UI_Manager.instance.animal_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.animal_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 5)
+            {
+                UI_Manager.instance.fruit_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.fruit_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 6)
+            {
+                UI_Manager.instance.vegtable_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.vegtable_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 7)
+            {
+                UI_Manager.instance.birds_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.birds_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 8)
+            {
+                UI_Manager.instance.farmAnimals_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.farmAnimals_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 9)
+            {
+                UI_Manager.instance.seaAnimals_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.seaAnimals_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 10)
+            {
+                UI_Manager.instance.shapes_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.shapes_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 11)
+            {
+                UI_Manager.instance.sports_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.sports_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 12)
+            {
+                UI_Manager.instance.vehicles_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.vehicles_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 13)
+            {
+                UI_Manager.instance.musicalInstruments_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.musicalInstruments_Screen.Set_NextBtn(true);
+            }
+            else if (LevelId == 14)
+            {
+                UI_Manager.instance.bodyParts_Screen.Set_PrevBtn(true);
+                UI_Manager.instance.bodyParts_Screen.Set_NextBtn(true);
+            }
         }
     }
 
@@ -127,14 +364,75 @@ public class Alphabets_Scene : MonoBehaviour
     {
         AudioManager.instance.Play_MoveClip();
 
-        if(LevelId == 1)
+        if (LevelId == 1)
         {
             UI_Manager.instance.alphabet_Screen.Set_PrevBtn(false);
             UI_Manager.instance.alphabet_Screen.Set_NextBtn(false);
-        }else if (LevelId == 2)
+        }
+        else if (LevelId == 2)
         {
             UI_Manager.instance.number_Screen.Set_PrevBtn(false);
             UI_Manager.instance.number_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 3)
+        {
+            UI_Manager.instance.color_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.color_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 4)
+        {
+            UI_Manager.instance.animal_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.animal_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 5)
+        {
+            UI_Manager.instance.fruit_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.fruit_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 6)
+        {
+            UI_Manager.instance.vegtable_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.vegtable_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 7)
+        {
+            UI_Manager.instance.birds_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.birds_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 8)
+        {
+            UI_Manager.instance.farmAnimals_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.farmAnimals_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 9)
+        {
+            UI_Manager.instance.seaAnimals_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.seaAnimals_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 10)
+        {
+            UI_Manager.instance.shapes_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.shapes_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 11)
+        {
+            UI_Manager.instance.sports_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.sports_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 12)
+        {
+            UI_Manager.instance.vehicles_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.vehicles_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 13)
+        {
+            UI_Manager.instance.musicalInstruments_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.musicalInstruments_Screen.Set_NextBtn(false);
+        }
+        else if (LevelId == 14)
+        {
+            UI_Manager.instance.bodyParts_Screen.Set_PrevBtn(false);
+            UI_Manager.instance.bodyParts_Screen.Set_NextBtn(false);
         }
 
 

@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Menu_Screen : MonoBehaviour
 {
+
+    public Button NoAdsBtn;
     public void On_Alphabets_Btn_Click()
     {
         UI_Manager.instance.On_Alphabets_Btn_Click();
@@ -89,5 +92,11 @@ public class Menu_Screen : MonoBehaviour
     {
         UI_Manager.instance.On_BodyParts_Btn_Click();
         this.gameObject.SetActive(false);
+    }
+
+    public void Set_No_Ads_Btn()
+    {
+        //NoAdsBtn.enabled = !PlayerPrefsManager.Instance.GetNoAdsStatus();
+        NoAdsBtn.gameObject.SetActive(!PlayerPrefsManager.Instance.GetNoAdsStatus());
     }
 }

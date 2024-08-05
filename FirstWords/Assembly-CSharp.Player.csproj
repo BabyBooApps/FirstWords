@@ -79,7 +79,6 @@
     <Compile Include="Assets\Scripts\UI\Animal_Screen.cs" />
     <Compile Include="Assets\Scripts\IAP\InAppRewards.cs" />
     <Compile Include="Assets\Scripts\UI\HorizontalScrollSnap.cs" />
-    <Compile Include="Assets\Scripts\Ads\AdmobAdsScript.cs" />
     <Compile Include="Assets\Scripts\GamePlayManager.cs" />
     <Compile Include="Assets\Scripts\UI\Number_Screen.cs" />
     <Compile Include="Assets\Scripts\UI\Alphabet_Screen.cs" />
